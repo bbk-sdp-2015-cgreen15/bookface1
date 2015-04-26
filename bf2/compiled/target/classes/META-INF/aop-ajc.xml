@@ -1,0 +1,48 @@
+<aspectj>
+<aspects>
+<aspect name="com.cbsd.csg.bf1.domain.Comment_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.service.UserAuthorFavouriteService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.service.BookService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavourite_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.domain.Book_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUser_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.repository.AuthorRepository_Roo_Jpa_Repository"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavourite_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.domain.Book_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.service.UserBookFavouriteServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.service.AuthorServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUser_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.domain.Comment_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.repository.UserAuthorFavouriteRepository_Roo_Jpa_Repository"/>
+<aspect name="com.cbsd.csg.bf1.service.BFUserServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.web.UserAuthorFavouriteController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.service.UserAuthorFavouriteServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavourite_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.web.CommentController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavourite_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.repository.BookRepository_Roo_Jpa_Repository"/>
+<aspect name="com.cbsd.csg.bf1.service.CommentService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.repository.UserBookFavouriteRepository_Roo_Jpa_Repository"/>
+<aspect name="com.cbsd.csg.bf1.domain.Author_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.domain.Comment_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.web.BFUserController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.repository.BFUserRepository_Roo_Jpa_Repository"/>
+<aspect name="com.cbsd.csg.bf1.service.BookServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.service.AuthorService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.domain.Book_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.service.BFUserService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.web.BookController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.domain.Author_Roo_ToString"/>
+<aspect name="com.cbsd.csg.bf1.domain.Author_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavourite_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.service.CommentServiceImpl_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.web.UserBookFavouriteController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUser_Roo_JavaBean"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavourite_Roo_Jpa_Entity"/>
+<aspect name="com.cbsd.csg.bf1.service.UserBookFavouriteService_Roo_Service"/>
+<aspect name="com.cbsd.csg.bf1.web.AuthorController_Roo_Controller"/>
+<aspect name="com.cbsd.csg.bf1.repository.CommentRepository_Roo_Jpa_Repository"/>
+</aspects>
+</aspectj>
+

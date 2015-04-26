@@ -1,0 +1,29 @@
+<aspectj>
+<aspects>
+<aspect name="com.cbsd.csg.bf1.domain.AuthorIntegrationTest_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavouriteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.BookIntegrationTest_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.CommentIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavouriteDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.AuthorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.AuthorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavouriteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.BookDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.BookIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavouriteIntegrationTest_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavouriteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.cbsd.csg.bf1.domain.AuthorDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.CommentDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavouriteIntegrationTest_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserBookFavouriteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.CommentDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.UserAuthorFavouriteDataOnDemand_Roo_Configurable"/>
+<aspect name="com.cbsd.csg.bf1.domain.BFUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.BookDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.cbsd.csg.bf1.domain.CommentIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,39 @@
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2015-04-26 14:15:47
+project --topLevelPackage com.cbsd.csg.bf1
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+entity jpa --class ~.domain.Author --activeRecord false --testAutomatically
+field string --fieldName name --sizeMin 2 --notNull
+entity jpa --class ~.domain.Book --activeRecord false --testAutomatically
+field string --fieldName name --sizeMin 2 --notNull
+field reference --fieldName author --type ~.domain.Author
+entity jpa --class ~.domain.BFUser --activeRecord false --testAutomatically
+field string --fieldName userScreenName --sizeMin 2 --notNull
+field string --fieldName email --sizeMin 2 --notNull
+entity jpa --class ~.domain.Comment --activeRecord false --testAutomatically
+field string --fieldName commentText --sizeMin 2 --notNull
+field reference --fieldName book --type ~.domain.Book
+field reference --fieldName userScreenName --type ~.domain.BFUser
+entity jpa --class ~.domain.UserBookFavourite --activeRecord false --testAutomatically
+field reference --fieldName book --type ~.domain.Book
+field reference --fieldName userScreenName --type ~.domain.BFUser
+entity jpa --class ~.domain.UserAuthorFavourite --activeRecord false --testAutomatically
+field reference --fieldName author --type ~.domain.Author
+field reference --fieldName userScreenName --type ~.domain.BFUser
+repository jpa --interface ~.repository.AuthorRepository --entity ~.domain.Author
+repository jpa --interface ~.repository.BookRepository --entity ~.domain.Book
+repository jpa --interface ~.repository.BFUserRepository --entity ~.domain.BFUser
+repository jpa --interface ~.repository.CommentRepository --entity ~.domain.Comment
+repository jpa --interface ~.repository.UserBookFavouriteRepository --entity ~.domain.UserBookFavourite
+repository jpa --interface ~.repository.UserAuthorFavouriteRepository --entity ~.domain.UserAuthorFavourite
+service type --interface ~.service.AuthorService --entity ~.domain.Author
+service type --interface ~.service.BookService --entity ~.domain.Book
+service type --interface ~.service.BFUserService --entity ~.domain.BFUser
+service type --interface ~.service.CommentService --entity ~.domain.Comment
+service type --interface ~.service.UserBookFavouriteService --entity ~.domain.UserBookFavourite
+service type --interface ~.service.UserAuthorFavouriteService --entity ~.domain.UserAuthorFavourite
+web mvc setup
+web mvc all --package ~.web
+// script /Users/craigsg/Documents/files/bbk/cbsd/software/bookface1_local/bf2/rooScripts/bf2.roo
+perform tests
+quit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2015-04-26 14:17:16

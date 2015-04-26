@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="userbookfavourites/list">
+        <put-attribute name="body" value="/WEB-INF/views/userbookfavourites/list.jspx"/>
+    </definition>
+<definition extends="default" name="userbookfavourites/show">
+        <put-attribute name="body" value="/WEB-INF/views/userbookfavourites/show.jspx"/>
+    </definition>
+<definition extends="default" name="userbookfavourites/create">
+        <put-attribute name="body" value="/WEB-INF/views/userbookfavourites/create.jspx"/>
+    </definition>
+<definition extends="default" name="userbookfavourites/update">
+        <put-attribute name="body" value="/WEB-INF/views/userbookfavourites/update.jspx"/>
+    </definition>
+</tiles-definitions>
