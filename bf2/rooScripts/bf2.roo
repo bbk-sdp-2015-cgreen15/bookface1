@@ -1,0 +1,55 @@
+// Create a new project
+project --topLevelPackage com.cbsd.csg.bf1
+
+// Setup JPA persistence using EclipseLink and H2
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+
+// Create domain entities
+entity jpa --class ~.domain.Author --activeRecord false --testAutomatically
+field string --fieldName name --sizeMin 2 --notNull
+
+entity jpa --class ~.domain.Book --activeRecord false --testAutomatically
+field string --fieldName name --sizeMin 2 --notNull
+field reference --fieldName author --type ~.domain.Author
+
+entity jpa --class ~.domain.BFUser --activeRecord false --testAutomatically
+field string --fieldName userScreenName --sizeMin 2 --notNull
+field string --fieldName email --sizeMin 2 --notNull
+
+entity jpa --class ~.domain.Comment --activeRecord false --testAutomatically
+field string --fieldName commentText --sizeMin 2 --notNull
+field reference --fieldName book --type ~.domain.Book
+field reference --fieldName userScreenName --type ~.domain.BFUser
+
+entity jpa --class ~.domain.UserBookFavourite --activeRecord false --testAutomatically
+field reference --fieldName book --type ~.domain.Book
+field reference --fieldName userScreenName --type ~.domain.BFUser
+
+entity jpa --class ~.domain.UserAuthorFavourite --activeRecord false --testAutomatically
+field reference --fieldName author --type ~.domain.Author
+field reference --fieldName userScreenName --type ~.domain.BFUser
+
+// Define a repository layer for persistence
+repository jpa --interface ~.repository.AuthorRepository --entity ~.domain.Author
+repository jpa --interface ~.repository.BookRepository --entity ~.domain.Book
+repository jpa --interface ~.repository.BFUserRepository --entity ~.domain.BFUser
+repository jpa --interface ~.repository.CommentRepository --entity ~.domain.Comment
+repository jpa --interface ~.repository.UserBookFavouriteRepository --entity ~.domain.UserBookFavourite
+repository jpa --interface ~.repository.UserAuthorFavouriteRepository --entity ~.domain.UserAuthorFavourite
+
+// Define a service/facade layer
+service type --interface ~.service.AuthorService --entity ~.domain.Author
+service type --interface ~.service.BookService --entity ~.domain.Book
+service type --interface ~.service.BFUserService --entity ~.domain.BFUser
+service type --interface ~.service.CommentService --entity ~.domain.Comment
+service type --interface ~.service.UserBookFavouriteService --entity ~.domain.UserBookFavourite
+service type --interface ~.service.UserAuthorFavouriteService --entity ~.domain.UserAuthorFavourite
+
+// perform test
+// perform package
+
+
+// Set up web stuff
+web mvc setup
+web mvc all --package ~.web
+
