@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_comment" z="KpI9zqkdeE9bZ8zxvHTXU6Lm24s=">
+            <menu:item id="i_comment_new" messageCode="global_menu_new" url="/comments?form" z="q921JBcftknHR9qtTYaac8JDm7g="/>
+            <menu:item id="i_comment_list" messageCode="global_menu_list" url="/comments?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z9n1g0FmjBLpyAPjZHhefDZLMtY="/>
+        </menu:category>
+        <menu:category id="c_book" z="WxiVAJUlwzLkYi6u7YpEjYOT82A=">
+            <menu:item id="i_book_new" messageCode="global_menu_new" url="/books?form" z="gAIxvrBOHQC/N0HWTGD46jzwyk8="/>
+            <menu:item id="i_book_list" messageCode="global_menu_list" url="/books?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VM0+BikyiEq8a8S+W6bSp3FXQFo="/>
+        </menu:category>
+        <menu:category id="c_bfuser" z="LKD2q9k42VUglXJtII7BFQRjSig=">
+            <menu:item id="i_bfuser_new" messageCode="global_menu_new" url="/bfusers?form" z="p3KCWQICxsfUqGL6BSRbrTmhPjE="/>
+            <menu:item id="i_bfuser_list" messageCode="global_menu_list" url="/bfusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5GSXa8smUD8GxNC+NJFgdXA9Sdg="/>
+        </menu:category>
+        <menu:category id="c_author" z="DETG4XqcVC9sb/BVL/ybUSG8lUM=">
+            <menu:item id="i_author_new" messageCode="global_menu_new" url="/authors?form" z="e6WikSiFx46UnQunBmCd54pmrYE="/>
+            <menu:item id="i_author_list" messageCode="global_menu_list" url="/authors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/71/+sYxLDw3jeyTZyEHzZ9CQQQ="/>
+        </menu:category>
+    </menu:menu>
+</div>

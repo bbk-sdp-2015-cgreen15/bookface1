@@ -1,0 +1,2 @@
+[EL Info]: 2015-04-26 13:59:10.143--ServerSession(1321115948)--EclipseLink, version: Eclipse Persistence Services - 2.5.0.v20130507-3faac2b
+[EL Info]: connection: 2015-04-26 13:59:10.677--ServerSession(1321115948)--file:/Users/craigsg/Documents/files/bbk/cbsd/software/bookface1_local/bf1/compiled/target/classes_persistenceUnit login successful
